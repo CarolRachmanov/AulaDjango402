@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
-from pesquisa import views 
+from opiniao import views 
 
 urlpatterns = [ 
     path('opiniao/', include('opiniao.urls')),
