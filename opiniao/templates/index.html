@@ -7,6 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>AGORA EXISTE!!!</h1>
+    <h1>Aqui estão as enquetes abertas para serem respondidas:</h1>
+    <!-- {{ perguntas }} -->
+    <ul>
+            {% for pergunta in perguntas %}
+                <li><a href="#">{{ pergunta }}</a> </li>
+            {% endfor %}
+    </ul>
+   
 </body>
 </html>
